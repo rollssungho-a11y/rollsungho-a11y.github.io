@@ -1,0 +1,12 @@
+.ceo-section { background: #ece9e2; }
+.ceo-heading { display: grid; grid-template-columns: 1.1fr .9fr; align-items: end; gap: 48px; margin-bottom: 48px; }
+.ceo-heading .title { margin-bottom: 0; }
+.ceo-heading .desc { padding-bottom: 8px; }
+.ceo-profile { margin: 0; background: #fff; border: 1px solid var(--line); border-radius: 28px; overflow: hidden; box-shadow: 0 24px 70px rgba(24,20,15,.1); }
+.ceo-profile img { display: block; width: 100%; height: auto; }
+.ceo-profile figcaption { padding: 16px 22px; color: var(--muted); font-size: 13px; text-align: right; }
+@media (max-width: 850px) {
+  .ceo-heading { grid-template-columns: 1fr; gap: 14px; margin-bottom: 28px; }
+  .ceo-profile { border-radius: 18px; }
+  .ceo-profile figcaption { text-align: left; }
+}
