@@ -1,0 +1,1 @@
+const m=document.querySelector('.menu'),l=document.querySelector('.links');if(m)m.onclick=()=>{const o=l.classList.toggle('open');m.setAttribute('aria-expanded',o)};const io=new IntersectionObserver(es=>es.forEach(e=>e.isIntersecting&&e.target.classList.add('on')),{threshold:.1});document.querySelectorAll('.reveal').forEach(e=>io.observe(e));
