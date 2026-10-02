@@ -1,0 +1,22 @@
+.microcopy{margin:16px 0 0;color:var(--muted);font-size:14px}
+.value-section{background:#ebe8e0}
+.benefit-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:48px}
+.benefit{background:var(--white);border:1px solid var(--line);border-radius:24px;padding:30px;min-height:250px}
+.benefit b{color:var(--red);letter-spacing:.12em}
+.benefit h3{font-size:24px;line-height:1.2;margin:54px 0 12px}
+.benefit p{color:var(--muted);margin:0}
+.compact-process .step{min-height:200px}
+.service-grid .card{position:relative;overflow:hidden}
+.service-grid .card b{color:var(--red);font-size:12px;letter-spacing:.12em}
+.scope-note{margin:22px 0 0;color:var(--muted);font-size:14px}
+.contact-copy{max-width:720px;font-size:18px;color:rgba(255,255,255,.82)}
+.btn.light{border-color:#fff;background:#fff;color:var(--red)}
+.btn.text-link{border-color:rgba(255,255,255,.55);color:#fff}
+.direct-email{margin-top:24px;font-weight:750}
+.direct-email a{color:var(--red);text-decoration:underline;text-underline-offset:4px}
+.optional{font-size:12px;color:var(--muted);font-weight:600}
+.trust-list{margin-top:48px;border-top:1px solid #44443e}
+.trust-list>div{display:grid;grid-template-columns:180px 1fr;gap:30px;padding:24px 0;border-bottom:1px solid #44443e}
+.trust-list b{color:#fff}.trust-list span{color:#aaa89f}
+@media(max-width:1100px) and (min-width:851px){.benefit-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:850px){.benefit-grid{grid-template-columns:1fr}.benefit{min-height:210px}.benefit h3{margin-top:34px}.trust-list>div{grid-template-columns:1fr;gap:4px}}

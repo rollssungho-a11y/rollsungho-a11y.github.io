@@ -6,11 +6,12 @@
   <title>제안 요청 — TDC COLLECTIVE</title>
   <link rel="icon" href="favicon.svg">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="conversion.css">
 </head>
 <body>
-  <header class="nav"><div class="wrap navin"><a class="brand" href="index.html"><img src="tdc-logo.png" alt="TDC collective"></a><button class="menu" aria-label="메뉴">☰</button><nav class="links"><a href="index.html">HOME</a><a href="about.html">ABOUT</a><a href="business.html">BUSINESS</a><a href="partners.html">PARTNERS & PRODUCTS</a><a class="cta" aria-current="page" href="proposal.html">제안 요청</a></nav></div></header>
+  <header class="nav"><div class="wrap navin"><a class="brand" href="index.html"><img src="tdc-logo.png" alt="TDC collective"></a><button class="menu" aria-label="메뉴">☰</button><nav class="links"><a href="index.html">HOME</a><a href="about.html">ABOUT</a><a href="business.html">BUSINESS</a><a href="partners.html">WHY TDC</a><a class="cta" aria-current="page" href="proposal.html">제안 요청</a></nav></div></header>
   <main>
-    <section class="pagehead"><div class="wrap"><div class="eyebrow">Proposal request</div><h1>함께 만들고 싶은<br>판매를 알려주세요.</h1><p class="lead">아래 내용을 작성한 뒤 이메일 또는 문자 중 편한 방법으로 보내주세요.</p></div></section>
+    <section class="pagehead"><div class="wrap"><div class="eyebrow">Proposal request</div><h1>상품과 현재 상황만<br>알려주세요.</h1><p class="lead">협업 방식이 정해지지 않아도 괜찮습니다. 필요한 운영 범위와 가능한 판매 구조를 함께 검토합니다.</p><p class="direct-email">자료를 직접 보내실 경우 <a href="mailto:tdc010@naver.com">tdc010@naver.com</a></p></div></section>
     <section class="section"><div class="wrap">
       <form class="form" id="proposalForm" action="https://formspree.io/f/xgavknyp" method="POST">
         <div class="fieldrow">
@@ -19,11 +20,15 @@
         </div>
         <div class="fieldrow">
           <div class="field"><label for="name">담당자명</label><input id="name" name="담당자명" placeholder="성함" required></div>
-          <div class="field"><label for="contact">회신받을 연락처</label><input id="contact" name="회신 연락처" placeholder="전화번호 또는 이메일" required></div>
+          <div class="field"><label for="contact">회신받을 이메일</label><input type="email" id="contact" name="회신 이메일" placeholder="name@company.com" required></div>
         </div>
-        <div class="field"><label for="message">제안 내용</label><textarea id="message" name="제안 내용" placeholder="제품, 목표 고객, 희망 일정과 요청 사항을 알려주세요." required></textarea></div>
+        <div class="fieldrow">
+          <div class="field"><label for="website">홈페이지·상품 링크 <span class="optional">선택</span></label><input type="url" id="website" name="홈페이지 또는 상품 링크" placeholder="https://"></div>
+          <div class="field"><label for="scope">필요한 지원 <span class="optional">선택</span></label><select id="scope" name="희망 운영 범위"><option value="아직 정하지 않음">아직 정하지 않음</option><option>크리에이터 협업·판매 기획</option><option>판매 운영 전반</option><option>기존 운영체계 연계</option></select></div>
+        </div>
+        <div class="field"><label for="message">상품과 제안 내용</label><textarea id="message" name="제안 내용" placeholder="상품명과 특징, 현재 판매 방식 또는 필요한 도움을 간단히 알려주세요." required></textarea></div>
         <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
-        <p class="notice">입력하신 정보는 제안 검토와 회신 목적으로만 사용됩니다.</p>
+        <p class="notice">입력하신 정보는 제안 검토와 회신 목적으로만 사용됩니다. 접수 내용은 tdc010@naver.com에서 확인합니다.</p>
         <div class="actions"><button class="btn primary" type="submit" id="submitButton">제안 요청하기</button></div>
         <p id="formStatus" role="status" style="font-weight:800;margin-top:18px"></p>
       </form>

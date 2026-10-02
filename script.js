@@ -1,3 +1,8 @@
+const conversionStyles=document.createElement('link');
+conversionStyles.rel='stylesheet';
+conversionStyles.href='conversion.css';
+document.head.appendChild(conversionStyles);
+
 const menu=document.querySelector('.menu'),links=document.querySelector('.links');
 if(menu)menu.addEventListener('click',()=>{const open=links.classList.toggle('open');menu.setAttribute('aria-expanded',open)});
 const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting)entry.target.classList.add('on')}),{threshold:.1});
