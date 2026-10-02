@@ -5,5 +5,5 @@ document.querySelectorAll('.reveal').forEach(element=>observer.observe(element))
 
 const footer=document.querySelector('footer');
 if(footer){
-  footer.innerHTML='<div class="wrap foot"><div><strong>주식회사 티디씨컬렉티브</strong><p>대표이사 조성호<br>서울특별시 강남구 테헤란로79길 6, JS타워 3층<br><a href="mailto:tmsk0823@naver.com">tmsk0823@naver.com</a> · <a href="tel:01032290823">010-3229-0823</a></p></div><div><strong>TOGETHER. DEVELOP. CONNECT.</strong><p>BRANDS × CREATORS × COMMERCE<br>© 2026 TDC COLLECTIVE. All rights reserved.</p></div></div>';
+  footer.innerHTML='<div class="wrap foot"><div><strong>주식회사 티디씨컬렉티브</strong><p>대표이사 조성호<br>서울특별시 강남구 테헤란로79길 6, JS타워 3층<br><a href="mailto:tdc010@naver.com">tdc010@naver.com</a> · <a href="tel:01032290823">010-3229-0823</a></p></div><div><strong>TOGETHER. DEVELOP. CONNECT.</strong><p>BRANDS × CREATORS × COMMERCE<br>© 2026 TDC COLLECTIVE. All rights reserved.</p></div></div>';
 }
