@@ -21,3 +21,27 @@
 .assurance-list{border-top:1px solid var(--ink)}.assurance-list article{display:grid;grid-template-columns:90px 1fr;padding:34px 0;border-bottom:1px solid var(--line)}.assurance-list span{color:var(--red);font-weight:850}.assurance-list h2{font-size:30px;margin:0 0 8px;letter-spacing:-.04em}.assurance-list p{color:var(--muted);font-size:17px;margin:0;max-width:720px}
 .inquiry-email{display:flex;gap:24px;margin-top:38px;align-items:center}.inquiry-email span{font-size:13px;font-weight:850;color:var(--muted)}.inquiry-email a{font-size:18px;font-weight:800;text-decoration:underline;text-underline-offset:5px}.pro-form{margin-top:0}.pro-form .field{margin-bottom:22px}
 @media(max-width:850px){.hero-pro{padding:72px 0 48px}.proof-row,.section-intro,.service-line,.split-statement,.principle-grid,.operation-grid{grid-template-columns:1fr}.proof-row{margin-top:50px}.proof-row div,.proof-row div:first-child{padding:18px 0;border-right:0;border-bottom:1px solid var(--line)}.proof-row div:last-child{border-bottom:0}.section-intro{gap:20px}.service-line article,.service-line article+article{padding:26px 0;border-right:0;border-bottom:1px solid var(--line);min-height:auto}.service-line h3{margin:28px 0 8px}.fit-list li{grid-template-columns:46px 1fr}.fit-list p{font-size:17px}.pro-contact .wrap{display:block}.contact-action{margin-top:32px}.pagehead-pro{padding:78px 0 58px}.split-statement{gap:28px}.principle-grid article,.principle-grid article+article{padding:26px 0;border-right:0;border-bottom:1px solid #44443e;min-height:auto}.principle-grid h3{margin:28px 0 8px}.business-block{grid-template-columns:42px 1fr;gap:18px}.business-block>p{grid-column:2}.assurance-list article{grid-template-columns:48px 1fr}.assurance-list h2{font-size:24px}.inquiry-email{display:block}.inquiry-email span,.inquiry-email a{display:block}.inquiry-email a{margin-top:5px}}
+
+/* Market cases — editorial proof section */
+.market-section{background:#fbfaf7;border-top:1px solid #e7e4de;border-bottom:1px solid #e7e4de}
+.market-intro{display:grid;grid-template-columns:1.15fr .85fr;gap:78px;align-items:end;margin-bottom:52px}
+.market-intro .title{margin-bottom:0;max-width:760px}
+.market-intro>p{font-size:18px;line-height:1.8;color:var(--muted);max-width:500px;margin:0 0 6px}
+.market-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;border:1px solid var(--line);background:var(--line)}
+.market-case{display:flex;flex-direction:column;min-width:0;min-height:316px;padding:31px 30px 27px;background:#fff;transition:background .2s}
+.market-case:hover{background:#f8f7f3}
+.market-case-top{display:flex;align-items:center;justify-content:space-between;gap:16px;font-size:11px;letter-spacing:.115em;font-weight:850}
+.market-id{color:var(--red)}.market-sector{color:#858279;text-align:right}
+.market-metric{display:flex;flex-direction:column;gap:3px;margin:31px 0 25px}
+.market-metric strong{font-size:clamp(35px,3vw,48px);font-weight:850;letter-spacing:-.055em;line-height:1.1;white-space:nowrap}
+.market-metric>span{font-size:13px;font-weight:650;color:#77756d}
+.market-case h3{font-size:20px;line-height:1.35;letter-spacing:-.035em;margin:0 0 8px}
+.market-case p{font-size:14px;color:var(--muted);line-height:1.65;margin:0 0 24px}
+.market-source{display:inline-flex;gap:6px;align-items:center;margin-top:auto;align-self:flex-start;font-size:12px;font-weight:780;color:#6b6861;border-bottom:1px solid #aaa69c;padding-bottom:2px}
+.market-source:hover{color:var(--red);border-color:var(--red)}
+.market-bottom{display:flex;justify-content:space-between;align-items:center;gap:35px;margin-top:23px}
+.market-bottom p{font-size:12px;line-height:1.7;color:#77746d;margin:0;max-width:790px}
+.market-bottom>a{flex-shrink:0;font-size:14px;font-weight:850;border-bottom:1px solid var(--ink);padding:4px 0}
+.market-bottom>a span{padding-left:8px}
+@media(max-width:1000px){.market-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.market-intro{gap:38px}}
+@media(max-width:650px){.market-intro{display:block;margin-bottom:32px}.market-intro .title{font-size:clamp(36px,9vw,47px)}.market-intro>p{font-size:15px;margin-top:19px}.market-grid{grid-template-columns:1fr}.market-case{min-height:280px;padding:25px 24px}.market-metric{margin:25px 0 20px}.market-metric strong{font-size:40px}.market-bottom{align-items:flex-start;flex-direction:column;gap:16px}.market-bottom p{font-size:11px}}
