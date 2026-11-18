@@ -48,8 +48,8 @@
 .cs-card-period{font-size:13px;font-weight:730;color:#a51f1a;margin:6px 0 0}
 .cs-card-bottom{border-top:1px solid #ebe9e4;margin-top:auto;padding-top:20px}
 .cs-card-bottom>p{color:#79766e;font-size:13px;line-height:1.7;margin:0 0 21px;min-height:44px}
-.cs-card-bottom>a{display:flex;align-items:center;justify-content:space-between;font-size:11px;font-weight:780;color:#4f4d48}
-.cs-card-bottom>a:hover{color:#a51f1a}.cs-card-bottom>a span{font-size:17px;line-height:1}
+.cs-source-note{display:block;font-size:11px;font-weight:740;color:#77736c;letter-spacing:.01em}
+
 .cs-method{display:grid;grid-template-columns:180px 1fr;gap:28px;border-top:1px solid #d7d2c9;padding-top:30px;margin-top:43px}
 .cs-method-label{font-size:11px;font-weight:850;letter-spacing:.14em;color:#a51f1a}
 .cs-method strong{display:block;font-size:14px;margin-bottom:6px}
